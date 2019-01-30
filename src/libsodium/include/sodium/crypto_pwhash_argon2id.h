@@ -34,7 +34,7 @@ size_t crypto_pwhash_argon2id_passwd_min(void);
 SODIUM_EXPORT
 size_t crypto_pwhash_argon2id_passwd_max(void);
 
-#define crypto_pwhash_argon2id_SALTBYTES 16U
+#define crypto_pwhash_argon2id_SALTBYTES 32U
 SODIUM_EXPORT
 size_t crypto_pwhash_argon2id_saltbytes(void);
 
